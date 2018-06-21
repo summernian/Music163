@@ -1,0 +1,384 @@
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+	border: none;
+}
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.clearFix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearFix {
+	zoom: 1;
+}
+.h-title,
+.more i {
+	background: url(../img/index01.png) no-repeat;
+}
+.icon,
+.play{
+	background: url(../img/index02.png) no-repeat;
+}
+.h-title {
+	height: 33px;
+    padding: 0 10px 0 34px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+}
+.h-title h2 {
+	float: left;
+	zoom: 1;
+    font-size: 20px;
+    line-height: 28px;
+}
+.h-title h2 a {
+	color: #333;
+}
+.h-title .h-list {
+    float: left;
+    zoom: 1;
+    margin: 7px 0 0 20px;
+}
+.h-title .h-list a {
+	color: #666;
+}
+.h-title .h-list .line {
+	margin: 0 10px;
+	color: #ccc;
+}
+.more {
+    float: right;
+    zoom: 1;
+    margin-top: 9px;
+}
+.more a {
+	color: #666;
+}
+.more i {
+	background-position: 0 -240px;
+	display: inline-block;
+	width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.h-music {
+	margin: 20px 0 0 -42px;
+}
+.h-music li {
+	float: left;
+	zoom: 1;
+	width: 140px;
+	height: 204px;
+	padding: 0 0 0 42px;
+}
+.h-img {
+	width: 140px;
+	height: 140px;
+	position: relative;
+}
+.h-img img{
+	width: 140px;
+	height: 140px;
+}
+.h-img .bg {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 27px;
+    background: #000;
+    opacity: .4;
+}
+.h-img .icon {
+	position: absolute;
+	left: 10px;
+	bottom: 7px;
+	width: 14px;
+	height: 11px;
+	background-position-y: -24px;
+}
+.h-img .txt {
+	position: absolute;
+	left: 29px;
+	bottom: 4px;
+	color: #ccc;
+}
+.h-img .play {
+	position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    background-position: 0 0;
+}
+.h-music li p {
+    margin: 8px 0 3px;
+    font-size: 14px;
+}
+.h-music p a {
+    color: #000;
+}
+.djvideo {
+	display: inline-block;
+    margin-right: 3px;
+	width: 35px;
+    height: 15px;
+    background: url(../img/icon.png) no-repeat -31px -658px;
+}
+.disk {
+	position: relative;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+    background: #f5f5f5;
+}
+.disk .tit {
+	position: absolute;
+	float: left;
+	zoom: 1;
+    top: 71px;
+    width: 17px;
+    height: 17px;
+}
+.disk .titL {
+	left: 4px;
+	background: url(../img/index01.png) no-repeat -260px -75px;
+}
+.disk .titR {
+	right: 4px;
+    background: url(../img/index01.png) no-repeat -300px -75px;
+}
+.dd-list {
+	float: left;
+	zoom: 1;
+	width: 645px;
+    height: 180px;
+    margin: 0 0 0 11px;
+    overflow: hidden;
+}
+.dd-list ul {
+    width: 645px;
+    margin: 28px 0 0 0;
+}
+.dd-list ul li {
+	float: left;
+	zoom: 1;
+    width: 118px;
+    height: 150px;
+    margin-left: 11px;
+}
+.dd-img {
+	position: relative;
+	margin-bottom: 7px;
+}
+.dd-img img {
+	width: 100px;
+	height: 100px;
+}
+.dd-img .p-disk {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 118px;
+    height: 100px;
+    background: url(../img/disk.png) no-repeat 0 -570px;
+}
+.diskplay {
+	position: absolute;
+	display: none;
+	left: 72px;
+    bottom: 5px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/index02.png) no-repeat 0 -85px;
+}
+li:hover .diskplay {
+	display: block;
+}
+.dd-list .d-disk p {
+	line-height: 18px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.d-disk p a {
+	color: #333;
+}
+.d-disk .singer a {
+	color: #666;
+}
+.n-list {
+    height: 472px;
+    margin-top: 20px;
+    padding-left: 1px;
+    background: url(../img/listbg.png) no-repeat;
+}
+.sec {
+	zoom: 1;
+  	float: left;
+    width: 230px;
+}
+.sec2 {
+	width: 228px;
+}
+.top {
+    height: 100px;
+    padding: 20px 0 0 19px;
+}
+.l-img {
+	zoom: 1;
+    float: left;
+    position: relative;
+}
+.l-img img {
+	width: 80px;
+	height: 80px;
+}
+.msk {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80px;
+	height: 80px;
+	background: url(../img/disk.png) no-repeat -145px -57px;
+}
+.titl {
+	zoom: 1;
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+}
+.l-title {
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.l-title a {
+	color: #333;
+}
+.btn {
+    margin-top: 10px;
+}
+.l-play {
+	zoom: 1;
+	display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    text-indent: -9999px;
+    background: url(../img/index01.png) no-repeat -267px -205px;
+}
+.l-collection {
+	zoom: 1;
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    text-indent: -9999px;
+    background: url(../img/index01.png) no-repeat -300px -205px;
+}
+.sec ol {
+    margin-left: 50px;
+    line-height: 32px;
+}
+.sec ol li {
+	height: 32px;
+	/*overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;*/
+}
+.num {
+	zoom: 1;
+	float: left;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+.numb {
+	color: #c10d0c;
+}
+.song {
+	zoom: 1;
+    float: left;
+    width: 170px;
+    height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}
+.p-list {
+	zoom: 1;
+    display: none;
+    float: right;
+    width: 82px;
+    margin-top: 7px;
+}
+.p-play {
+	zoom: 1;
+	float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    background: url(../img/index01.png) no-repeat -267px -268px;
+}
+.P-add {
+	zoom: 1;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin: 2px 6px 0 0;
+    background: url(../img/icon.png) no-repeat 0 -700px;
+}
+.p-collection {
+	zoom: 1;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    background: url(../img/index01.png) no-repeat -297px -268px;
+}
+.s-all {
+	zoom: 1;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 32px;
+}
+.s-all a {
+	color: #333;
+}
+.sec ol li:hover .song {
+	width: 96px;
+	text-decoration: underline;
+}
+.sec ol li:hover .p-list {
+	display: block;
+}

@@ -1,0 +1,381 @@
+.radio {
+	background: #F5F5F5;
+}
+.radio-body {
+	width: 980px;
+	margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-bottom: none;
+    background: #fff;
+}
+.radio-wrap {
+	padding: 40px;
+}
+.top-wrap {
+	position: relative;
+}
+.radio-station {
+	height: 194px;
+	overflow: hidden;
+}
+.radio-station ul {
+	margin-left: -33px;
+}
+.radio-station ul li {
+	float: left;
+    margin: 0px 0px 25px 33px;
+}
+.radio-icon {
+	display: block;
+	width: 70px;
+    height: 70px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.radio-icon2 {
+	display: block;
+	width: 70px;
+    height: 70px;
+    text-align: center;
+    color: rgb(90, 181, 231);
+}
+.r-bg {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/radio01.png) no-repeat 0 0;
+}
+.r-bg02 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/02.jpg) no-repeat 0 0;
+}
+.r-bg03 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/03.jpg) no-repeat 0 0;
+}
+.r-bg04 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/04.jpg) no-repeat 0 0;
+}
+.r-bg05 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/05.jpg) no-repeat 0 0;
+}
+.r-bg06 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/06.jpg) no-repeat 0 0;
+}
+.r-bg07 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/07.jpg) no-repeat 0 0;
+}
+.r-bg08 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/08.jpg) no-repeat 0 0;
+}
+.r-bg09 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/09.jpg) no-repeat 0 0;
+}
+.r-bg10 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/10.jpg) no-repeat 0 0;
+}
+.r-bg11 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/11.jpg) no-repeat 0 0;
+}
+.r-bg12 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/12.jpg) no-repeat 0 0;
+}
+.r-bg13 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/13.jpg) no-repeat 0 0;
+}
+.r-bg14 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/14.jpg) no-repeat 0 0;
+}
+.r-bg15 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/15.jpg) no-repeat 0 0;
+}
+.r-bg16 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/16.jpg) no-repeat 0 0;
+}
+.r-bg17 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/17.jpg) no-repeat 0 0;
+}
+.r-bg18 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/18.jpg) no-repeat 0 0;
+}
+.r-bg2 {
+    width: 48px;
+    height: 48px;
+    margin: 2px auto 0px;
+    background: url(../img/radio_apply.png) no-repeat 0 0;
+}
+.left-icon {
+	position: absolute;
+	left: -26px;
+    top: 50%;
+    width: 20px;
+    height: 30px;
+    margin-top: -15px;
+    opacity: .5;
+    background: url(../img/radio_slide.png) no-repeat 0 -30px;
+}
+.right-icon {
+	position: absolute;
+	right: -26px;
+    top: 50%;
+    width: 20px;
+    height: 30px;
+    margin-top: -15px;
+    opacity: .5;
+    background: url(../img/radio_slide.png) no-repeat -30px -30px;
+}
+.radio-page {
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    font-size: 0;
+    text-align: center;
+}
+#one {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../img/radio_slide.png) no-repeat -30px 0px;
+}
+#two {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../img/radio_slide.png) no-repeat 0px 0px;
+}
+.radio-sec {
+	margin-top: 10px;
+}
+.l-radio {
+	float: left;
+	width: 426px;
+}
+.l-r-title {
+    height: 40px;
+    border-bottom: 2px solid #c20c0c;
+}
+.l-r-title h3 {
+    float: left;
+    font-size: 24px;
+}
+.l-r-title h3 a {
+	color: #333;
+}
+.l-more {
+	float: right;
+    margin-top: 14px;
+    color: #666;
+}
+.radio-sec ul {
+    border: 1px solid #e2e2e2;
+    border-top: none;
+}
+.station {
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0px;
+}
+.radio-media {
+	float: left;
+	position: relative;
+	width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.radio-media i {
+	display: none;
+	position: absolute;
+   	width: 22px;
+    height: 22px;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -11px;
+    background: url(../img/index02.png) no-repeat 0 -85px;
+}
+.station:hover .radio-play {
+	display: block;
+}
+.radio-info {
+	float: left;
+    width: 254px;
+    margin: 1px 0 0 10px;
+    line-height: 20px;
+}
+.radio-info h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.radio-info h3 a {
+	color: #333;
+}
+.radio-info p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.radio-info p a {
+	color: #999;
+}
+.radio-tab {
+	float: left;
+    margin: 8px 0 0 10px;
+    height: 16px;
+    overflow: hidden;
+    padding: 0 6px;
+    border: 1px solid #999;
+    line-height: 16px;
+    color: #999;
+}
+.radio-tab:hover {
+    border-color: #666;
+    color: #666;
+    text-decoration: none;
+}
+.r-radio {
+	float: right;
+	width: 426px;
+}
+.radio-rank {
+	float: left;
+    width: 47px;
+    margin: 6px 0 0 0;
+    text-align: center;
+}
+.NO1 {
+    display: block;
+    font: 14px/1 arial;
+    text-align: center;
+    color: #da4545;
+}
+.up-down {
+	display: block;
+    color: #ba2226;
+    line-height: normal;
+    font: 10px/1 arial;
+}
+.up-down i {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    margin: -1px 2px 0 0;
+    background: url(../img/icon.png) no-repeat -74px -304px;
+}
+.radio-media2 {
+	float: left;
+	position: relative;
+	width: 40px;
+    height: 40px;
+    margin-left: 0;
+}
+.radio-media2 i {
+	display: none;
+	position: absolute;
+   	width: 22px;
+    height: 22px;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -11px;
+    background: url(../img/index02.png) no-repeat 0 -85px;
+}
+.radio-info2 {
+	float: left;
+    width: 208px;
+    margin: 1px 0 0 10px;
+    line-height: 20px;
+}
+.radio-info2 h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.radio-info2 h3 a {
+	color: #333;
+}
+.radio-info2 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.radio-info2 p a {
+	color: #999;
+}
+.PregressBar {
+	float: left;
+    position: relative;
+    width: 100px;
+    height: 8px;
+    margin-top: 16px;
+    background: url(../img/table.png) no-repeat 0 -240px;
+}
+.PregressBar span {
+	display: block;
+	width: 37%;
+    padding: 0 4px;
+    background: url(../img/table.png) no-repeat right -318px;
+    height: 8px;
+}
+.PregressBar span i {
+	display: block;
+	margin-left: -4px;
+	padding-left: 4px;
+    height: 8px;
+    background: url(../img/table.png) no-repeat 0 -304px;
+	
+}

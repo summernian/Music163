@@ -1,0 +1,274 @@
+.fl {
+	zoom: 1;
+	float: left;
+}
+.fr {
+	zoom: 1;
+	float: right;
+}
+a:hover {
+	text-decoration: underline;
+}
+.top {
+	width: 100%;
+}
+.t-top {
+    height: 70px;
+    background: url(../img/topbar.png) repeat-x 0 -80px;
+}
+.t-wrap {
+	width: 1100px;
+	height: 70px;
+    margin: 0 auto;
+}
+.logo {
+	width: 176px;
+}
+.logo a {
+    width: 157px;
+    height: 33px;
+    padding: 22px 20px 0 0;
+    background: url(../img/topbar.png) no-repeat 0 15px;
+    text-indent: -9999px;
+}
+.top-nav {
+	height: 70px;
+}
+.top-nav a {
+	zoom: 1;
+	float: left;
+	padding-left: 2px;
+    font-size: 14px;
+    line-height: 70px;
+    color: #ccc;
+    background: url(../img/topbar.png) no-repeat left -300px;
+}
+.top-nav a:hover {
+    background-position: left -470px;
+}
+.top-nav a span {
+	zoom: 1;
+	float: left;
+	padding: 0 20px 0 18px;
+	background: url(../img/topbar.png) no-repeat right -300px;
+}
+.cor {
+	display: none;
+    position: absolute;
+    left: 50%;
+    top: 63px;
+    width: 14px;
+    height: 9px;
+    margin-left: -7px;
+    background: url(../img/topbar.png) no-repeat -226px 0;
+}
+.top-nav .active {
+	position: relative;
+    margin: 0 -1px;
+    background-position: left -155px;
+}
+.top-nav .active span {
+	padding: 0 21px 0 19px;
+    background-position: right -155px;
+}
+.top-nav .active .cor {
+	display: block;
+}
+.top-nav .last {
+	position: relative;
+}
+.top-nav .last span {
+	background: none;
+	padding-right: 40px;
+}
+.top-nav .last .hot {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    width: 28px;
+    height: 19px;
+    background: url(../img/topbar.png) no-repeat -190px 0;
+}
+.search {
+	margin-top: 21px;
+    width: 210px;
+    height: 31px;
+    background: url(../img/topbar.png) no-repeat 0 -550px;
+}
+.search input {
+	background: none;
+	border: none;
+	margin: 8px 0 0 33px;
+	width: 170px;
+	font: 12px/1 "微软雅黑";
+	color: #9b9b9b;
+}
+.landing {
+	position: relative;
+    height: 45px;
+    margin: 21px 0 0 19px;
+    padding: 0 22px 0 0;
+    background: url(../img/topbar.png) no-repeat right -366px;
+}
+.landing .link {
+	width: 28px;
+    margin-top: 10px;
+    color: #787878;
+}
+.landing:hover {
+	background-position: right -405px;
+}
+.landing:hover .link {
+	color: #999;
+}
+.landing:hover .down-tab {
+	display: block;
+}
+.down-tab {
+	display: none;	
+    position: absolute;
+    top: 38px;
+    right: -43px;
+    width: 158px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: #2a2a2a;
+    z-index: 9999;
+}
+.d-list li {
+	zoom: 1;
+	float: left;
+}
+.d-list li a {
+	zoom: 1;
+	float: left;
+    width: 132px;
+    height: 38px;
+    padding-left: 24px;
+    overflow: hidden;
+    color: #ccc;
+    line-height: 39px;
+}
+.d-list li a:hover {
+	color: #fff;
+	background: #353535;
+}
+.d-icon {
+	zoom: 1;
+	float: left;
+    width: 18px;
+    height: 18px;
+    margin: 10px 10px 0 -7px;
+    background: url(../img/toplist.png) no-repeat 0 9999px;
+}
+.d-icon1 {
+	background-position: 0 0;
+}
+.d-icon2 {
+	background-position: -20px -20px;
+}
+.d-icon3 {
+	background-position: -20px -40px;
+}
+.d-icon4 {
+	background-position: 0 -20px;
+}
+.d-icon5 {
+	background-position: 0 -40px;
+}
+.n-nav {
+	height: 35px;
+	background: url(../img/topbar.png) repeat-x 0 -230px;
+}
+.n-wrap {
+	width: 911px;
+    padding-left: 168px;
+    margin: 0 auto;;
+}
+.nav {
+	height: 35px;
+	overflow: hidden;
+}
+.nav a {
+	zoom: 1;
+	float: left;
+	margin: 0 17px;
+	padding: 0 0 0 14px;
+    line-height: 37px;
+    color: #fff;
+    overflow: hidden;
+}
+.nav a span {
+	zoom: 1;
+	float: left;
+	padding: 0 14px 0 0;
+}
+.nav a:hover,
+.nav .n-active {
+	background: url(../img/topbar.png) no-repeat left -268px;
+}
+.nav a:hover span,
+.nav .n-active span {
+	background: url(../img/topbar.png) no-repeat right -268px;
+}
+.bottom {
+    height: 140px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+.f-footer {
+	width: 980px;
+    margin: 0 auto;
+}
+.f-left {
+    width: 490px;
+    padding-top: 35px;
+    line-height: 24px;
+    color: #666;
+}
+.f-left nav a {
+	color: #999;
+}
+.f-left nav .line {
+	margin: 0 8px 0 10px;
+    color: #c2c2c2;
+}
+.company {
+	margin-left: 14px;
+}
+.company a {
+	color: #666;
+}
+.f-right {
+    width: 330px;
+    margin-top: 21px;
+}
+.f-right li {
+	zoom: 1;
+	float: left;
+	margin-left: 30px;
+}
+.f-right li a {
+	zoom: 1;
+	float: left;
+    width: 60px;
+    height: 70px;
+    color: #999;
+    font-size: 0;
+}
+.f-right .f-musicia {
+	margin: 0;
+}
+.f-logo {
+	background: url(../img/foot_enter.png) no-repeat -60px -80px;
+}
+.f-logo2 {
+	background-position: 0 -80px;
+}
+.f-logo3 {
+	background-position: 0 0px;
+}
+.f-logo4 {
+	background-position: -60px 0px;
+}

@@ -1,0 +1,134 @@
+@keyframes move {
+	10% {
+		margin-left: 0;
+	}
+	20% {
+		margin-left: -100%;
+	}
+	30% {
+		margin-left: -100%;
+	}
+	40% {
+		margin-left: -200%;
+	}
+	50% {
+		margin-left: -200%;
+	}
+	60% {
+		margin-left: -300%;
+	}
+	70% {
+		margin-left: -300%;	
+	}
+	80% {
+		margin-left: -400%;
+	}
+	90% {
+		margin-left: -400%;
+	}
+	100% {
+		margin-left: 0;
+	}
+}
+.banner {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.i-banner {
+	width: 500%;
+	animation: 30s move infinite;
+}
+.i-banner:hover {
+	animation-play-state: paused;
+}
+.i-banner li {
+	zoom: 1;
+	float: left;
+	width: 20%;
+}
+.i-bg {
+	background: #0c1b22;
+}
+.i-bg2 {
+	background: #18061e;
+}
+.i-bg3 {
+	background: #f0f2f1;
+}
+.i-bg4 {
+	background: #5f28ff;
+}
+.i-bg5 {
+	background: #3684c2;
+}
+.b-wrap {
+	position: relative;
+	width: 982px;
+    margin: 0 auto;
+}
+.btnL {
+    position: absolute;
+    top: 50%;
+    left: -68px;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    background: url(../img/banner/banner.png) no-repeat 0 -360px;
+}
+.btnR {
+    position: absolute;
+    top: 50%;
+    right: -68px;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    background: url(../img/banner/banner.png) no-repeat 0 -508px;
+}
+.btnL:hover {
+	background-position: 0 -430px;
+}
+.btnR:hover {
+	background-position: 0 -578px;
+}
+.dot {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 730px;
+    height: 20px;
+    text-align: center;
+}
+.dot a {
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/banner/banner.png) no-repeat 3px -343px;
+}
+.dot a:hover,
+.dot .i-active {
+	background: url(../img/banner/banner.png) no-repeat -16px -343px;
+}
+.download {
+	position: absolute;
+	top: 0;
+    right: 0;
+    width: 254px;
+    height: 336px;
+    background: url(../img/banner/download.png) no-repeat 0 0;
+}
+.download .btn {
+	display: block;
+    width: 215px;
+    height: 56px;
+    margin: 212px 0 0 19px;
+    font-size: 0;
+}
+.download .btn:hover {
+	background: url(../img/banner/download.png) no-repeat 0 -340px;
+}
+.download p {
+	margin: 10px 0;
+    text-align: center;
+    color: #8d8d8d;
+}
